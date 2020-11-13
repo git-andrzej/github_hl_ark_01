@@ -2,13 +2,13 @@ var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
 var score = 0;
-var lives = 5;
+var lives = 4;
 
 var x = canvas.width / 2;
 var y = canvas.height - 30;
 var dx = 2;
 var dy = -2;
-var ballRadius = 15;
+var ballRadius = 14;
 
 var paddleHeight = 8;
 var paddleWidth = 85;
